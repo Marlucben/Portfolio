@@ -18,5 +18,22 @@
 .titulo{font-family: Caviar;
         
 }
-
+.pointer-shadow {
+    position: absolute;
+    width: 200px; /* Tamaño de la sombra */
+    height: 200px;
+    opacity: 5%;
+    background-color: rgba(222, 236, 131, 0.5); /* Color y opacidad de la sombra */
+    border-radius: 50%; /* Hace que la sombra sea redonda */
+    pointer-events: none; /* La sombra no interferirá con los eventos del puntero */
+    transform: translate(-50%, -50%); /* Centra la sombra en el puntero */
+    z-index: 9999; /* Asegura que la sombra esté por encima de todo el contenido */}
+    body {
+        background-color: #000;
+        color: #fff;
+        height: 100vh;
+        margin: 0;
+        overflow: hidden; /* Evita el scroll en el body */
+       
+    }
  

@@ -481,6 +481,7 @@
     <div class="copy">Github Marktaur - Todos los derechos reservados 2024</div>
     <div class="volver"><a href="#section1"  ><i class="fa-solid fa-house "></i></a></div>
     </div>
+    <div class="pointer-shadow" id="pointer-shadow"></div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
@@ -490,6 +491,13 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
     <script src="/Script/Scrip.js"></script>
+    <script>
+      document.addEventListener('mousemove', function(e) {
+          var shadow = document.getElementById('pointer-shadow');
+          shadow.style.left = e.pageX + 'px';
+          shadow.style.top = e.pageY + 'px';
+      });
+  </script>
 
   </body>
 
