@@ -11,5 +11,12 @@
 *{
     list-style-type:none;
 }
+@font-face{
+    font-family:Caviar;
+    src: url(/Fuentes/CaviarDreams.ttf);
+}
+.titulo{font-family: Caviar;
+        
+}
 
  
