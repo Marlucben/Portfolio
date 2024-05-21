@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 .copy{
     margin-top: 40px;
     text-align: center;
@@ -38,3 +40,6 @@
        
     }
  
+    html {
+        scroll-behavior: smooth;
+    }
