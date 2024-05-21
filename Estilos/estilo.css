@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 .copy{
     margin-top: 40px;
     text-align: center;
@@ -13,9 +15,9 @@
 }
 @font-face{
     font-family:Caviar;
-    src: url(/Fuentes/CaviarDreams.ttf);
+    src: url(Fuentes/CaviarDreams.ttf);
 }
-.titulo{font-family: Caviar;
+sidebar .titulo{font-family: Caviar;
     
         
 }
@@ -38,3 +40,6 @@
        
     }
  
+    html {
+        scroll-behavior: smooth;
+    }
