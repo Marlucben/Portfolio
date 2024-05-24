@@ -1,3 +1,10 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.full-height {
+    height: 100vh;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -15,9 +22,9 @@ html {
 }
 @font-face{
     font-family:Caviar;
-    src: url(Fuentes/CaviarDreams.ttf);
-}
-sidebar .titulo{font-family: Caviar;
+    src: url(/Fuentes/CaviarDreams.ttf);}
+    
+ .titulo{font-family: Caviar;
     
         
 }
@@ -25,8 +32,8 @@ sidebar .titulo{font-family: Caviar;
     position: absolute;
     width: 200px; /* Tamaño de la sombra */
     height: 200px;
-    opacity: 5%;
-    background-color: rgba(222, 236, 131, 0.5); /* Color y opacidad de la sombra */
+    opacity: 10%;
+    background-color: rgba(218, 240, 75, 0.5); /* Color y opacidad de la sombra */
     border-radius: 50%; /* Hace que la sombra sea redonda */
     pointer-events: none; /* La sombra no interferirá con los eventos del puntero */
     transform: translate(-50%, -50%); /* Centra la sombra en el puntero */
@@ -36,10 +43,58 @@ sidebar .titulo{font-family: Caviar;
         color: #fff;
         height: 100vh;
         margin: 0;
-        overflow: hidden; /* Evita el scroll en el body */
+        
        
     }
  
     html {
         scroll-behavior: smooth;
+    }
+    
+    .sidebar {
+      position: fixed;
+      top: 30vh;
+      bottom: 0;
+      left: 10vh;
+      width: 35vh;
+      /* Ancho del sidebar */
+      background-color: #343a40;
+      padding-top: 56px;
+      /* Altura del navbar fijo */
+      overflow-y: auto;
+      /* Permite el scroll dentro del sidebar */
+      
+    }
+
+    .content {
+      margin-left: 50vh;
+      /* Compensa el ancho del sidebar */
+      padding-top: 56px;
+      /* Altura del navbar fijo */
+      
+      overflow-y: auto;
+      /* Permite el scroll solo en el contenido */
+      padding: 20px;
+      scrollbar-width: none;
+      /* Firefox */
+      -ms-overflow-style: none;
+      /* Internet Explorer 10+ */
+
+      scroll-behavior: smooth;
+
+    }
+
+    .sidebar a {
+      color: #ffffff;
+      text-decoration: none;
+      display: block;
+      padding: 10px 70px;
+      
+    }
+
+    .sidebar a:hover {
+      color: #656d65; /* Color del icono al hacer hover */
+      transition: color 0.3s; /* Transición suave para el cambio de color */
+     
+      
     }
