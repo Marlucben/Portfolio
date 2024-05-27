@@ -40,6 +40,12 @@
         margin-top: 50px;
      }
      
+.menú {
+  max-width: 200px;
+  
+  
+  opacity: 0.6;
+}
  
 }
 
