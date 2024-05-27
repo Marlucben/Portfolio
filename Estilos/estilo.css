@@ -1,100 +1,56 @@
-body, html {
-    height: 100%;
-    margin: 0;
-}
-.full-height {
-    height: 100vh;
-}
-html {
-    scroll-behavior: smooth;
-}
-.copy{
-    margin-top: 40px;
-    text-align: center;
-}
-.volver {
-    text-align: right;
-    font-size: 35px;
-    margin-right: 30px;
-    margin-bottom: 30px;}
-*{
-    list-style-type:none;
-}
+
 @font-face{
     font-family:Caviar;
-    src: url(CaviarDreams.ttf);}
+    src: url(../Fuentes/CaviarDreams.ttf);}
     
- .titulo{font-family: Caviar;
-    
-        
+ *{font-family: Caviar;}
+
+ .tituloFoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
-.pointer-shadow {
-    position: absolute;
-    width: 200px; /* Tamaño de la sombra */
-    height: 200px;
-    opacity: 10%;
-    background-color: rgba(218, 240, 75, 0.5); /* Color y opacidad de la sombra */
-    border-radius: 50%; /* Hace que la sombra sea redonda */
-    pointer-events: none; /* La sombra no interferirá con los eventos del puntero */
-    transform: translate(-50%, -50%); /* Centra la sombra en el puntero */
-    z-index: 9999; /* Asegura que la sombra esté por encima de todo el contenido */}
-    body {
-        background-color: #000;
-        color: #fff;
-        height: 100vh;
-        margin: 0;
-        
-       
-    }
- 
-    html {
-        scroll-behavior: smooth;
-    }
+.container a {
+  text-decoration: none;
+}
+
+
+.navegador a {
+    color: #c3c9c8;
+    text-decoration: none;
+    display: block;
+    padding: 10px 70px;
+    margin-left: 20px;
+    border-style: hidden;
+    text-shadow: #86c995;
     
-    .sidebar {
-      position: fixed;
-      top: 30vh;
-      bottom: 0;
-      left: 10vh;
-      width: 35vh;
-      /* Ancho del sidebar */
-      background-color: #343a40;
-      padding-top: 56px;
-      /* Altura del navbar fijo */
-      overflow-y: auto;
-      /* Permite el scroll dentro del sidebar */
-      
-    }
+  }
 
-    .content {
-      margin-left: 50vh;
-      /* Compensa el ancho del sidebar */
-      padding-top: 56px;
-      /* Altura del navbar fijo */
-      
-      overflow-y: auto;
-      /* Permite el scroll solo en el contenido */
-      padding: 20px;
-      scrollbar-width: none;
-      /* Firefox */
-      -ms-overflow-style: none;
-      /* Internet Explorer 10+ */
+  .navegador a:hover {
+    color: #ffffff; /* Color del icono al hacer hover */
+    text-size-adjust: 10%;
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+   
+    
+  }
+  @media screen and (max-width: 640px) {
 
-      scroll-behavior: smooth;
-
-    }
-
-    .sidebar a {
-      color: #ffffff;
-      text-decoration: none;
-      display: block;
-      padding: 10px 70px;
-      
-    }
-
-    .sidebar a:hover {
-      color: #656d65; /* Color del icono al hacer hover */
-      transition: color 0.3s; /* Transición suave para el cambio de color */
+    .titulo {
+        margin-top: 50px;
+     }
      
-      
-    }
+ 
+}
+
+.pointer-shadow {
+  position: absolute;
+  width: 200px; /* Tamaño de la sombra */
+  height: 200px;
+  opacity: 10%;
+  background-color: rgba(244, 245, 235, 0.5); /* Color y opacidad de la sombra */
+  border-radius: 50%; /* Hace que la sombra sea redonda */
+  pointer-events: none; /* La sombra no interferirá con los eventos del puntero */
+  transform: translate(-50%, -50%); /* Centra la sombra en el puntero */
+  z-index: 9999; /* Asegura que la sombra esté por encima de todo el contenido */}
+  
