@@ -1,62 +1,62 @@
 
-@font-face{
-    font-family:Caviar;
-    src: url(../Fuentes/CaviarDreams.ttf);}
-    
- *{font-family: Caviar;}
 
- .tituloFoto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+@font-face{
+  font-family:Caviar;
+  src: url(../Fuentes/CaviarDreams.ttf);}
+  
+*{font-family: Caviar;}
+
+.tituloFoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 .container a {
-  text-decoration: none;
+text-decoration: none;
 }
 
 
 .navegador a {
-    color: #c3c9c8;
-    text-decoration: none;
-    display: block;
-    padding: 10px 70px;
-    margin-left: 20px;
-    border-style: hidden;
-    text-shadow: #86c995;
-    
-  }
-
-  .navegador a:hover {
-    color: #ffffff; /* Color del icono al hacer hover */
-    text-size-adjust: 10%;
-    transition: color 0.3s; /* Transición suave para el cambio de color */
-   
-    
-  }
-  @media screen and (max-width: 640px) {
-
-    .titulo {
-        margin-top: 50px;
-     }
-     
-.menú {
-  max-width: 200px;
+  color: #c3c9c8;
+  text-decoration: none;
+  display: block;
+  padding: 10px 70px;
+  margin-left: 20px;
+  border-style: hidden;
+  text-shadow: #86c995;
   
-  
-  opacity: 0.6;
 }
+
+.navegador a:hover {
+  color: #ffffff; /* Color del icono al hacer hover */
+  text-size-adjust: 10%;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
  
+  
 }
+@media screen and (max-width: 640px) {
+
+  .titulo {
+      margin-top: 50px;
+   }
+   
+.menu {
+     
+     opacity: 0.6;
+     
+       }
+
+ }
 
 .pointer-shadow {
-  position: absolute;
-  width: 200px; /* Tamaño de la sombra */
-  height: 200px;
-  opacity: 10%;
-  background-color: rgba(244, 245, 235, 0.5); /* Color y opacidad de la sombra */
-  border-radius: 50%; /* Hace que la sombra sea redonda */
-  pointer-events: none; /* La sombra no interferirá con los eventos del puntero */
-  transform: translate(-50%, -50%); /* Centra la sombra en el puntero */
-  z-index: 9999; /* Asegura que la sombra esté por encima de todo el contenido */}
-  
+position: absolute;
+width: 200px; /* Tamaño de la sombra */
+height: 200px;
+opacity: 10%;
+background-color: rgba(244, 245, 235, 0.5); /* Color y opacidad de la sombra */
+border-radius: 50%; /* Hace que la sombra sea redonda */
+pointer-events: none; /* La sombra no interferirá con los eventos del puntero */
+transform: translate(-50%, -50%); /* Centra la sombra en el puntero */
+z-index: 9999; /* Asegura que la sombra esté por encima de todo el contenido */}
+
