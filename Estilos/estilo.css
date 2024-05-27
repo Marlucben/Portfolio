@@ -46,6 +46,9 @@ text-decoration: none;
      opacity: 0.3;
      
        }
+.pointer-shadow {
+width: 0px; /* Tamaño de la sombra */
+height: 0px;}
 
  }
 
