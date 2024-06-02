@@ -49,12 +49,10 @@ text-decoration: none;
      opacity: 0.9;
      
        }
-       
-      
+   #pointer-shadow{
 
-.pointer-shadow {
-width: 0px; /* Tamaño de la sombra */
-height: 0px;}
+    display: none;
+   }
 
  }
 
