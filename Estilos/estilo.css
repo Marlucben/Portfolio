@@ -43,18 +43,25 @@ text-decoration: none;
    .titulo1{
     margin-right: 50px;
    }
+
+   #pointer-shadow{
+
+    display: none;
+    width: 0; /* Tamaño de la sombra */
+    height: 0;
+    opacity: 0%;
+   }
    
   .menu {
      
      opacity: 0.9;
      
        }
-   #pointer-shadow{
+}
 
-    display: none;
-   }
-
- }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(108%);
+}
 
 .pointer-shadow {
 position: absolute;
